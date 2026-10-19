@@ -1,0 +1,6 @@
+interface:
+  display_name: "Nocturne Remember"
+  short_description: "Save a lasting project fact to memory"
+  default_prompt: "Use $nocturne-remember to save this fact to .nocturne/memory."
+policy:
+  allow_implicit_invocation: false

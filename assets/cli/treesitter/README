@@ -1,0 +1,2 @@
+web-tree-sitter 0.25.10 (MIT) and tree-sitter-wasms 0.1.13 grammars (Unlicense), copied unchanged from npm.
+Used by nocturne_hook.py through impact.cjs for the impact check.

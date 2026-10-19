@@ -1,0 +1,6 @@
+interface:
+  display_name: "Nocturne Init Feature"
+  short_description: "Trace a code flow and save the report"
+  default_prompt: "Use $nocturne-init-feature to trace this flow function-by-function from the trigger point, cite evidence, and save the report under .nocturne/reports."
+policy:
+  allow_implicit_invocation: false

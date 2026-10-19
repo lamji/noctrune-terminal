@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Nocturne's editor colors: the same palette as the terminal (see AGENTS.md). -->
+<style-scheme id="nocturne" name="Nocturne" version="1.0">
+  <author>Nocturne Terminal</author>
+  <description>Dark scheme matching the Nocturne terminal palette</description>
+  <color name="bg" value="#292b36"/>
+  <color name="raised" value="#30323d"/>
+  <color name="fg" value="#dedee8"/>
+  <color name="bright" value="#f0eaf5"/>
+  <color name="muted" value="#7c7e92"/>
+  <color name="dim" value="#666b80"/>
+  <color name="select" value="#4a4459"/>
+  <color name="pink" value="#df9bc6"/>
+  <color name="red" value="#ef8195"/>
+  <color name="green" value="#a6d8a0"/>
+  <color name="yellow" value="#e7ca8b"/>
+  <color name="blue" value="#8fb7ec"/>
+  <color name="magenta" value="#cd9cdb"/>
+  <color name="cyan" value="#8dd4d0"/>
+  <color name="orange" value="#e7a37c"/>
+
+  <style name="text" foreground="fg" background="bg"/>
+  <style name="selection" background="select"/>
+  <style name="selection-unfocused" background="#3a3c48"/>
+  <style name="cursor" foreground="pink"/>
+  <style name="secondary-cursor" foreground="magenta"/>
+  <style name="current-line" background="raised"/>
+  <style name="line-numbers" foreground="dim" background="bg"/>
+  <style name="current-line-number" foreground="fg" background="raised"/>
+  <style name="bracket-match" background="select" bold="true"/>
+  <style name="bracket-mismatch" foreground="red" underline="error"/>
+  <style name="search-match" foreground="#1f1c27" background="yellow"/>
+  <style name="right-margin" foreground="#3e404c" background="bg"/>
+  <style name="draw-spaces" foreground="#3e404c"/>
+  <style name="background-pattern" background="raised"/>
+
+  <style name="def:comment" foreground="muted" italic="true"/>
+  <style name="def:shebang" foreground="muted" bold="true"/>
+  <style name="def:doc-comment-element" foreground="muted" bold="true"/>
+  <style name="def:keyword" foreground="magenta"/>
+  <style name="def:statement" foreground="magenta"/>
+  <style name="def:type" foreground="blue"/>
+  <style name="def:builtin" foreground="blue"/>
+  <style name="def:function" foreground="cyan"/>
+  <style name="def:identifier" foreground="fg"/>
+  <style name="def:string" foreground="green"/>
+  <style name="def:special-char" foreground="yellow"/>
+  <style name="def:character" foreground="green"/>
+  <style name="def:number" foreground="yellow"/>
+  <style name="def:floating-point" foreground="yellow"/>
+  <style name="def:decimal" foreground="yellow"/>
+  <style name="def:base-n-integer" foreground="yellow"/>
+  <style name="def:boolean" foreground="orange"/>
+  <style name="def:constant" foreground="orange"/>
+  <style name="def:special-constant" foreground="orange"/>
+  <style name="def:preprocessor" foreground="red"/>
+  <style name="def:operator" foreground="fg"/>
+  <style name="def:error" foreground="red" underline="error"/>
+  <style name="def:warning" foreground="yellow"/>
+  <style name="def:note" foreground="yellow" bold="true"/>
+  <style name="def:net-address" foreground="blue" underline="single"/>
+  <style name="def:link-destination" foreground="blue" underline="single"/>
+  <style name="def:heading" foreground="bright" bold="true"/>
+  <style name="def:emphasis" italic="true"/>
+  <style name="def:strong-emphasis" bold="true"/>
+  <style name="def:inline-code" foreground="green"/>
+  <style name="def:insertion" foreground="green"/>
+  <style name="def:deletion" foreground="red"/>
+  <style name="def:underlined" underline="single"/>
+
+  <style name="diff:added-line" foreground="green"/>
+  <style name="diff:removed-line" foreground="red"/>
+  <style name="diff:changed-line" foreground="yellow"/>
+  <style name="diff:location" foreground="cyan"/>
+  <style name="diff:diff-file" foreground="muted" bold="true"/>
+  <style name="xml:element-name" foreground="red"/>
+  <style name="xml:attribute-name" foreground="yellow"/>
+  <style name="xml:tags" foreground="red"/>
+  <style name="html:tag" foreground="red"/>
+  <style name="css:property-name" foreground="blue"/>
+  <style name="css:selector-symbol" foreground="magenta"/>
+  <style name="js:object-property" foreground="fg"/>
+  <style name="json:keyname" foreground="blue"/>
+  <style name="yaml:key" foreground="blue"/>
+  <style name="python3:decorator" foreground="orange"/>
+  <style name="python:decorator" foreground="orange"/>
+  <style name="sh:variable" foreground="orange"/>
+</style-scheme>

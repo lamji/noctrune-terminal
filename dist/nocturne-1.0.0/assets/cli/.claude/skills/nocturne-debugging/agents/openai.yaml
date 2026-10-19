@@ -1,0 +1,6 @@
+interface:
+  display_name: "Nocturne Debugging"
+  short_description: "Diagnose and fix a defect with evidence"
+  default_prompt: "Use $nocturne-debugging to trace this defect to its confirmed cause, fix it narrowly, and verify the fix."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Nocturne Impact Check"
+  short_description: "Check what a change can break"
+  default_prompt: "Use $nocturne-impact-check to list every place the working-tree changes affect, then run the related tests."
+policy:
+  allow_implicit_invocation: false

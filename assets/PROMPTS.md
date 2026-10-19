@@ -1,0 +1,5 @@
+Artwork generated using the built-in image_gen tool.
+
+Icon prompt: A polished Linux desktop app icon for Nocturne, a dark terminal application. A single bold, minimal symbol combining a crescent moon with a terminal prompt chevron and short cursor, on a charcoal rounded-square tile. Dusty pink and soft lavender accents, crisp flat geometric design, legible at 32 pixels, centered with small transparent outer margin. No lettering, no mockup, no shadows outside the tile. Transparent background.
+
+Final logo prompt: Create a clean final horizontal brand logo for Nocturne Linux terminal. Dark solid charcoal background #292b36 across the entire image, opaque. Left a bold pink-lavender crescent moon with a terminal chevron and underscore on dark rounded-square tile. Right the exact word "Nocturne" in clean pale lavender sans-serif. Crisp solid typography with absolutely no grunge, distressed effects, texture, speckles or stray marks. Simple polished flat design. Wide landscape, generous margins. No other text.
